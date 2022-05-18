@@ -8,6 +8,7 @@ for (let btn of buttons) {
     btn.addEventListener('click', function(e) {
     btn.classList.add("btns1")
     rating.textContent = (btn.textContent)
+currentbtn = btn += btn;
 })
 }
 
