@@ -1,0 +1,168 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+  }
+
+#star {
+    background-color: hsl(219, 13%, 22%);
+    width: 2.5em;
+    display: flex;
+    height: 2.5em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#star img {
+    width: 1em;
+    height: 1em;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.firstSec, .secondSec {
+    border-radius: 1em;
+    background: radial-gradient(circle, rgba(45, 53, 64, 1) 1%, rgba(20, 25, 31, 1) 57%) fixed;
+    padding: 1.9em 1.8em 1em 1.8em;
+    width: 18em;
+    height: 17em;
+}
+
+#btn {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#ratings button {
+    background-color: hsl(219, 13%, 22%);
+    text-decoration: none;
+    border: none;
+    border-radius: 50%;
+    width: 2.8em;
+    height: 2.8em;
+    color: hsl(217, 12%, 63%);
+}
+
+#ratings button:hover {
+background-color: hsl(25, 97%, 53%);
+color: white;
+}
+
+#ratings .btns1{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+#ratings {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.information {
+    color: hsl(217, 12%, 63%);
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: .8em;
+}
+
+.firstSec h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 1em 0 0.5em 0;
+    font-size: 1.5em;
+}
+
+#submit {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    width: 22em;
+    height: 2.7em;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    margin: 1em 0 0.5em 0;
+}
+
+#submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.secondSec .information {
+    text-align: center;
+    font-size: .8em;
+    line-height: 1.6;
+}
+
+.secondSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondSec img {
+    width: 8em;
+    margin: .7em 0;
+}
+
+.secondSec #score {
+    margin: 0 0;
+}
+
+.secondSec h1 {
+    color: hsl(0, 0%, 100%);
+    margin: .5em 0;
+    font-size: 1.2em;
+}
+
+#score {
+    padding: 0;
+    margin: 0;
+}
+
+.secondSec div {
+    padding: 0 0;
+    margin: .5em 0;
+    background-color: rgba(124, 135, 152, .1);
+    height: 1.9em;
+    border-radius: 25px;
+}
+
+.secondSec div div {
+width: 11em;
+background: none;
+text-align: center;
+}
+
+.secondSec div div p {
+    font-size: 0.8em;
+    background: none;
+    color: hsl(25, 97%, 53%);
+}
+
+.view {
+    display: none;
+}
+
